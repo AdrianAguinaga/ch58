@@ -10,7 +10,7 @@ function stop() {
 
 function init() {
     console.log("App initialized");
-    start();
+    start();// this starts the app
 }
 
 window.onload = init;// this waits for the DOM to be fully loaded before running init 
